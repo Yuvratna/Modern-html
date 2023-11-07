@@ -1,0 +1,156 @@
+Q 1. List out the features of HTML5.
+Ans. HTML5 is the current version of the HyperText Markup language, which was developed by two major organizations W3C (Worldwide Web Consortium) and WHATWG( Web Hypertext Application Technology Working Group), and is still under development. The html5 features are vast compared to the previous versions, with a lot of functionality. Now let's look at different html5 features in detail.
+There are several new features added to HTML5.few of listing bellow
+
+1.Video & Audio:
+	Audio and Video tags are the two major addition to HTML5. It allows developers to embed a video or audio on their website. HTML5 video can use CSS and CSS3 to style the video tag. You can change the border, opacity, reflections, gradients, transitions, transformations, and even animations. HTML5 makes adding video super-fast and without having to build a video player. This saves time for the developer and offers the client a superior and more affordable solution.
+
+	ex. <body>
+		<video src="Video file path" controls>
+			Text to be displayed when the browser doesn't support the video goes here.
+		</video>
+
+		<audio src="location of the audio" controls>
+			Text to be displayed when the browser doesn't support the audio goes here.
+		</audio>
+	    </body>
+
+2.New Input Element Types:
+	Input elements play an important role in data driven web applications. The input types help in receiving the input in a required format. In HTML5 some new input types have been added. A few of the existing input types are password, file, etc. Below are a few of the important and useful new types introduced in HTML5 for an input HTML control.
+	ex. <input id="EmailIdInput" type="email" />
+
+3.Autofocus and Placeholder Attributes:
+	The autofocus feature is achieved by adding the autofocus attribute. This allows the control to have the focus automatically on page load.
+
+	ex. <button id="SubmitButton" autofocus></button>
+
+Placeholder is a feature supported for input fields by adding the attribute placeholder. This feature displays the value provided for the placeholder attribute, like a water mark, 	until the focus is moved to the input control.
+
+	ex. <input type="email" name="EmailTextBox" placeholder="Please enter email here..."/>
+
+4.Header and Footer:
+	With these new tags, there is no longer a need to identify the two elements with a <div> tag. Footer is placed at the end of the web page while Header is placed at the start of the web page. By using <header> and <footer> HTML5 elements, the browser will know what to load first and what to load later. 
+
+	The header can contain:-One or more heading elements (<h1> – <h6>),Logo or icon,Authorship information.
+
+	Footer can contain:-Authorship information,Copyright information,Contact information,Back to top links.
+
+5.Figure and Figcaption:
+	HTML5 allows to use a <figure> element to mark up a photo in a document, and a <figcaption> element to define a caption for the photo. The <figcaption> tag defines a caption for a <figure> element. This tag provides a container for content that is equivalent to a figure. It can be used to group a caption with one or more images, a block of code, or other content.
+
+	ex. <figure>
+  		<img 
+       			src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/
+            		download3.png" alt="GFG" style="width:50%">
+  			<figcaption>Fig.1 - Geeksforgeeks.</figcaption>
+	    </figure>
+
+6.Nav tag:
+	The <nav> tag defines a set of navigation links. It is used for the part of an internet site that links to different pages at the website. The hyperlinks can be organized through a number of approaches. Common examples of the nav elements are menus, tables, contents, and indexes. This element makes it much easier to create a navigation menu, creates a neat horizontal menu of text links, and helps screen reading software to correctly identify primary navigation areas in the document.
+
+7.Progress tag:
+	The progress tag is used to check the progress of a task during the execution. Progress tag can be used with the conjunction of JavaScript.
+
+____________________________________________________________________________________________________________________________________________________________________________________________
+
+
+Q. 2: What are HTML Entities? list out commonly used HTML entities.
+ans.	An HTML entity is a piece of text ("string") that begins with an ampersand (&) and ends with a semicolon (;). Entities are frequently used to display reserved characters (which would otherwise be interpreted as HTML code), and invisible characters (like non-breaking spaces). You can also use them in place of other characters that are difficult to type with a standard keyboard.
+
+Character entities are used to display reserved characters in HTML.
+A character entity looks like this:
+	
+Syntax:	&entity_name;
+	OR
+	&#entity_number;
+
+ex.	To display a less than sign (<) we must write: &lt; or &#60;
+	
+
+Non-breaking Space: 
+A commonly used entity in HTML is the non-breaking space: &nbsp;
+A non-breaking space is a space that will not break into a new line.
+Two words separated by a non-breaking space will stick together (not break into a new line). This is handy when breaking the words might be disruptive.
+
+Examples:
+	§ 10
+	10 km/h
+	10 PM
+Another common use of the non-breaking space is to prevent browsers from truncating spaces in HTML pages.
+If you write 10 spaces in your text, the browser will remove 9 of them. To add real spaces to your text, you can use the &nbsp; character entity.
+
+
+
+Result	Description			Entity Name	Entity Number	
+non-breaking space			&nbsp;		&#160;	
+<	less than			&lt;		&#60;	
+>	greater than			&gt;		&#62;	
+&	ampersand			&amp;		&#38;	
+"	double quotation mark		&quot;		&#34;	
+'	single quotation mark 
+	(apostrophe)			&apos;		&#39;	
+¢	cent				&cent;		&#162;	
+£	pound				&pound;		&#163;	
+¥	yen				&yen;		&#165;	
+€	euro				&euro;		&#8364;	
+©	copyright			&copy;		&#169;	
+®	registered trademark		&reg;		&#174;
+____________________________________________________________________________________________________________________________________________________________________________________________
+
+Q.3 define accessibility in the context of web development . discuss why it is essential to create accessibility websites and how it benifits different user group.
+ans:	Accessibility is the practice of making your websites usable by as many people as possible. We traditionally think of this as being about people with disabilities, but the practice of making sites accessible also benefits other groups such as those using mobile devices, or those with slow network connections.
+	You might also think of accessibility as treating everyone the same, and giving them equal opportunities, no matter what their ability or circumstances. Just as it is wrong to exclude someone from a physical building because they are in a wheelchair (modern public buildings generally have wheelchair ramps or elevators), it is also not right to exclude someone from a website because they have a visual impairment. We are all different, but we are all human, and therefore have the same human rights.
+
+	Accessibility is the right thing to do. Providing accessible sites is part of the law in some countries, which can open up some significant markets that otherwise would not be able to use your services or buy your products.
+
+Building accessible sites benefits everyone:
+
+	Semantic HTML, which improves accessibility, also improves SEO, making your site more findable.
+
+	Caring about accessibility demonstrates good ethics and morals, which improves your public image.
+
+	Other good practices that improve accessibility also make your site more usable by other groups, such as mobile phone users or those on low network speed. In fact, everyone can 	benefit from many such improvements.
+	
+____________________________________________________________________________________________________________________________________________________________________________________________
+
+
+Q. 4 List any 3 ways which help us in improving the accessibility of HTML.
+ans:	During the website development process, you want to make sure that the end user has the best user experience. And that includes people with disabilities or those who faces challenges when using a website.
+	If you keep a few things in mind during the web development process, you can improve the user experience for all users, including differently abled users.
+Below are some helpful tips you can use to improve website accessibility.
+
+1.Add Alt Text to Images
+	You might have heard about the importance of adding alt text on image tags in HTML5. So how do you use them? Do you provide alt text for every image on your webpage?
+
+Image alt text makes it easier for people with visionary disabilities to understand the content of a webpage. But you should include the alt text only for informational images that aid in the understanding of the content.
+
+Decorative images should have empty alt text. This tells screen readers that the information provided by the image is not important and might in fact detract from the user experience.
+
+ex. 	<img src="crunch_exercise.png" alt="You must have a good quality exercise mat and 	workout clothing to avoid back injuries and skin allergies">
+	
+	The alt text we provided for our image clearly tells visually impaired users the 	message our image conveys
+
+2.Maintain Heading Hierarchy
+	If you don't use headings in the correct hierarchy (from <h1> – the biggest – to <h6> – the smallest), screen readers might assume there's some content missing.
+
+Because of this, it is best to use <h1> for the main title only, <h2> for headings that come after the title, h3 for subheadings, and so on.
+
+Consider the example below: we have a webpage with a few headings. <h1> is used for the document title, <h2> for the second level document heading, <h3> for subheadings and <h4> for mini headlines (headings that come after <h3>).
+
+
+3.Use the Aria Property or Label Tag for Input Fields
+	Aria labels or <label> tags tell screen readers what type of information an input field expects. Without them, screen readers would not know the purpose of an input field, which would provide a bad user experience to visually disabled users.
+
+____________________________________________________________________________________________________________________________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
